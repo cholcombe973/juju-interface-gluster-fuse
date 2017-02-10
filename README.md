@@ -1,10 +1,8 @@
 # Overview
 
 This interface layer handles the communication between Gluster 
-and a client that requires an admin key. The expectation here is 
-that the client will mount the volume using the gluster native fuse 
-client.  Please see here: [gluster native client](https://gluster.readthedocs.io/en/latest/Administrator Guide/Setting Up Clients) for more 
-information on the fuse client.
+and a client. The expectation here is 
+that the client will mount the volume using the NFS client.  Please see here: [gluster nfs client](http://gluster.readthedocs.io/en/latest/Administrator%20Guide/Setting%20Up%20Clients/#using-nfs-to-mount-volumes) for more information using the NFS mount.
 
 # Usage
 
