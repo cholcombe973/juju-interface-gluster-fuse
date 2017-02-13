@@ -2,7 +2,7 @@
 
 This interface layer handles the communication between Gluster 
 and a client. The expectation here is 
-that the client will mount the volume using the NFS client.  Please see here: [gluster nfs client](http://gluster.readthedocs.io/en/latest/Administrator%20Guide/Setting%20Up%20Clients/#using-nfs-to-mount-volumes) for more information using the NFS mount.
+that the client will mount the volume using the fuse client.  Please see here: [gluster fuse client](http://gluster.readthedocs.io/en/latest/Administrator%20Guide/Setting%20Up%20Clients/#manual-mount) for more information using the fuse mount.
 
 # Usage
 
