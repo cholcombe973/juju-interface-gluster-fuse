@@ -1,3 +1,3 @@
-name: gluster-client
-summary: Gluster Client Interface
+name: gluster-fuse
+summary: Gluster Fuse Client Interface
 version: 1
