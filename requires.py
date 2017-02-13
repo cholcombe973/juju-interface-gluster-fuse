@@ -12,12 +12,12 @@ class GlusterRequires(RelationBase):
             # it is part of the set of available units
             conv.set_state('{relation_name}.available')
 
-    @hook('{requires:http}-relation-{departed}')
+    @hook('{requires:gluster-nfs}-relation-{departed}')
     def departed(self):
         conv = self.conversation()
         conv.remove_state('{relation_name}.available')
 
-    @hook('{provides:gluster-fuse}-relation-{joined,changed}')
+    @hook('{provides:gluster-nfs}-relation-{joined,changed}')
     def changed(self):
         self.set_state('{relation_name}.connected')
 
